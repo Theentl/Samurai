@@ -1,0 +1,13 @@
+.feature__text {
+  @include font(400, 2.3rem, 160%);
+  text-align: center;
+  color: #576077;
+  margin-bottom: 9rem;
+}
+
+@media (max-width: 48em) {
+  .feature__text {
+    @include font(400, 2.7rem, 160%);
+    margin-bottom: 16rem;
+  }
+}

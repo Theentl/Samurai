@@ -1,0 +1,10 @@
+.feature__point {
+  width: 5rem;
+  position: absolute;
+}
+
+@media (max-width: 48em) {
+  .feature__point {
+    display: none;
+  }
+}

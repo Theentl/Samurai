@@ -1,0 +1,9 @@
+.footer__img {
+  width: 2.4rem;
+  margin-right: 0.9rem;
+}
+@media (max-width: 48em) {
+  .footer__img {
+    display: none;
+  }
+}

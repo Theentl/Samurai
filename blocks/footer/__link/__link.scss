@@ -1,0 +1,13 @@
+.footer__link {
+  display: inline-block;
+  color: #959aae !important;
+  @include font(500, 1.7rem, 140%);
+  margin-bottom: 1rem;
+}
+@media (max-width: 48em) {
+  .footer__link {
+    @include font(400, 3rem, 136%);
+    color: #e7eaef !important;
+    margin-bottom: 2.5rem;
+  }
+}

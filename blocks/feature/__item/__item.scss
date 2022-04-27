@@ -1,0 +1,19 @@
+.feature__item {
+  cursor: pointer;
+  opacity: 0.5;
+  margin-bottom: 3rem;
+}
+
+@media (max-width: 48em) {
+  .feature__item {
+    background: #ffffff;
+    padding: 4.3rem 0.8rem 4.1rem 2.1rem;
+    margin: 0 1rem;
+    border: 1px solid #f3f4f7;
+    box-sizing: border-box;
+    box-shadow: 0 2rem 5.2rem -0.8rem rgba(0, 0, 0, 0.15);
+    border-radius: 1.6rem;
+    opacity: 1;
+    margin-bottom: 5rem;
+  }
+}

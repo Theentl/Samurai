@@ -1,0 +1,9 @@
+.slider__mobile {
+  display: none;
+}
+
+@media (max-width: 48em) {
+  .slider__mobile {
+    display: block;
+  }
+}

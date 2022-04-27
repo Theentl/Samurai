@@ -1,0 +1,10 @@
+.feature__description {
+  @include font(400, 1.5rem, 160%);
+  color: #576077;
+}
+
+@media (max-width: 48em) {
+  .feature__description {
+    @include font(400, 2.5rem, 154%);
+  }
+}

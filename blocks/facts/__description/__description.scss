@@ -1,0 +1,11 @@
+.facts__description {
+  text-align: center;
+  @include font(400, 2.3rem, 160%);
+  margin-bottom: 5.4rem;
+}
+@media (max-width: 48em) {
+  .facts__description {
+    @include font(400, 2.5rem, 170%);
+    margin-bottom: 5.5rem;
+  }
+}

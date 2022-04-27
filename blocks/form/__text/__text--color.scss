@@ -1,0 +1,12 @@
+.form__text--color {
+  color: #576077;
+}
+
+@media (max-width: 48em) {
+  .form__text {
+    font-weight: 300;
+    font-size: 2.4rem;
+    line-height: 91.52%;
+    width: 90%;
+  }
+}

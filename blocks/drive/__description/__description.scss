@@ -1,0 +1,12 @@
+.drive__description {
+  @include font(400, 1.9rem, 160%);
+  margin-bottom: 2.1rem;
+  max-width: 57.8rem;
+}
+@media (max-width: 48em) {
+  .drive__description {
+    @include font(400, 2.5rem, 175%);
+    text-align: initial;
+    margin-bottom: 4rem;
+  }
+}

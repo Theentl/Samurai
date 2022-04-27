@@ -1,0 +1,15 @@
+.feature__title {
+  @include font(900, 4.4rem, 120%);
+  color: #2b3350;
+  text-align: center;
+  padding-top: 10rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 48em) {
+  .feature__title {
+    padding-top: 13.5rem;
+
+    @include font(900, 5.5rem, 120%);
+  }
+}

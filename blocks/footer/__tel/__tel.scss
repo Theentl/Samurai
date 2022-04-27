@@ -1,0 +1,12 @@
+.footer__link--style {
+  color: #e7eaef !important;
+  font-size: 2rem;
+  padding-top: 2rem;
+}
+
+@media (max-width: 48em) {
+  .footer__link--style {
+    color: #e7eaef !important;
+    font-size: 3rem;
+  }
+}

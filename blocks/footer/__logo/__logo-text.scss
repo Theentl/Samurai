@@ -1,0 +1,10 @@
+.footer__logo-text {
+  @include font(500, 1.5rem, 165%);
+  padding-top: 1.6rem;
+}
+@media (max-width: 48em) {
+  .footer__logo-text {
+    @include font(500, 2.3rem, 165%);
+    padding: 0;
+  }
+}

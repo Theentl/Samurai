@@ -1,0 +1,14 @@
+.feature__inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: relative;
+}
+
+@media (max-width: 48em) {
+  .feature__inner {
+    padding: 55.5rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+}

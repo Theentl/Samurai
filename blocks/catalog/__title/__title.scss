@@ -1,0 +1,9 @@
+.catalog__title {
+  @include font(900, 4.4rem, 120%);
+  text-align: center;
+}
+@media (max-width: 48em) {
+  .catalog__title {
+    @include font(900, 5.4rem, 120%);
+  }
+}

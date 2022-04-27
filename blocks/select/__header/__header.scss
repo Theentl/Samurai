@@ -1,0 +1,11 @@
+.select__header {
+  display: flex;
+  align-items: center;
+  img {
+    width: 1.8rem;
+    height: 0.8rem;
+    flex-shrink: 0;
+    margin-left: 0.8rem;
+    margin-top: 0.3rem;
+  }
+}

@@ -1,0 +1,30 @@
+.feature__slider {
+  display: none;
+}
+
+@media (max-width: 48em) {
+  .feature__slider {
+    display: inline;
+  }
+}
+
+/* Слайдер */
+.slick-slider {
+  min-width: 0;
+}
+/* Ограничивающая оболочка */
+.slick-list {
+  overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track {
+  display: flex;
+  align-items: flex-start;
+}
+
+.feature__item {
+  transition: all 0.3s ease 0s;
+}
+.slider__item img {
+  max-width: 100%;
+}

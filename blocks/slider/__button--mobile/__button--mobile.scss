@@ -1,0 +1,13 @@
+.button__slider--mobile {
+  display: none;
+}
+
+@media (max-width: 48em) {
+  .button__slider--mobile {
+    display: block;
+    font-weight: 600;
+    font-size: 2.7rem;
+    line-height: 155%;
+    padding: 2.5rem 3.3rem;
+  }
+}

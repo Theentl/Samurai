@@ -1,0 +1,12 @@
+.cart__coin-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+@media (max-width: 48em) {
+  .cart__coin-img {
+    top: 65%;
+    left: 47%;
+  }
+}

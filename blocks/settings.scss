@@ -1,0 +1,27 @@
+.active {
+  display: flex;
+}
+
+.noscroll {
+  overflow: hidden !important;
+  height: 100% !important;
+}
+
+.just-validate-error-label {
+  padding-top: 0.35rem;
+  padding-bottom: 0.35rem;
+  font-size: 1.8rem !important;
+  color: rgb(237 96 96) !important;
+}
+
+@media (max-width: 48em) {
+  .noscroll {
+    & .header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 100;
+    }
+  }
+}

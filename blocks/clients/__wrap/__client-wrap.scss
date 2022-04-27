@@ -1,0 +1,19 @@
+.clients__wrap {
+  display: flex;
+  justify-content: space-evenly;
+  padding-right: 1rem;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 17.8rem;
+}
+
+@media (max-width: 48em) {
+  .clients__wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 14rem);
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 8rem;
+  }
+}

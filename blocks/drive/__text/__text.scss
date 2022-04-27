@@ -1,0 +1,12 @@
+.drive__text {
+  padding-bottom: 28rem;
+  margin-top: -2.5rem;
+}
+
+@media (max-width: 48em) {
+  .drive__text {
+    padding-bottom: 6.4rem;
+    padding-top: 0;
+    text-align: center;
+  }
+}

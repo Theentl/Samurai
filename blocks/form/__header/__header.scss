@@ -1,0 +1,14 @@
+.form__header {
+  @include font(900, 4rem, 160%);
+  margin-bottom: 0.9rem;
+  max-width: 58.4rem;
+}
+@media (max-width: 48em) {
+  .form__header {
+    font-weight: 900;
+    font-size: 5.6rem;
+    line-height: 123%;
+    margin: 0 0 2.3rem;
+    text-align: center;
+  }
+}

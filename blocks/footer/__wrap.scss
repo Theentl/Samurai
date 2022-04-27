@@ -1,0 +1,11 @@
+.footer__wrap {
+  padding-top: 3.5rem;
+  background: #191e32;
+  color: #959aae;
+}
+@media (max-width: 48em) {
+  .footer__wrap {
+    padding: 0;
+    height: 100%;
+  }
+}

@@ -1,0 +1,11 @@
+.drive {
+  padding-top: 1rem;
+  margin-top: -4.5rem;
+}
+
+@media (max-width: 48em) {
+  .drive {
+    margin: 0;
+    padding-bottom: 18rem;
+  }
+}

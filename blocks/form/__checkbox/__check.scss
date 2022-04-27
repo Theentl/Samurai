@@ -1,0 +1,6 @@
+.check {
+  color: red;
+  @include font(500, 1.5rem, 160%);
+  margin-left: 2rem;
+  padding-top: 2rem;
+}

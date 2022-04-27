@@ -1,0 +1,10 @@
+.feature__item-title {
+  @include font(600, 2.2rem, 140%);
+  color: #2b3350;
+}
+
+@media (max-width: 48em) {
+  .feature__item-title {
+    @include font(600, 3.2rem, 142%);
+  }
+}

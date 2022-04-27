@@ -1,0 +1,8 @@
+.header-tel__wrap {
+  @include vercen;
+}
+@media (max-width: 48em) {
+  .header-tel__wrap {
+    display: none;
+  }
+}

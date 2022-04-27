@@ -1,0 +1,12 @@
+.slider__arrow {
+  background-color: #ffffff;
+  width: 5rem;
+  height: 5rem;
+  @include centered;
+}
+
+@media (max-width: 48em) {
+  .slider__arrow {
+    display: none;
+  }
+}

@@ -1,0 +1,9 @@
+.facts__items {
+  padding: 0 11rem;
+}
+
+@media (max-width: 48em) {
+  .facts__items {
+    padding: 0;
+  }
+}

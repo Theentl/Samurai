@@ -1,0 +1,10 @@
+.footer__mobile-img {
+  display: none;
+}
+@media (max-width: 48em) {
+  .footer__mobile-img {
+    display: block;
+    margin-bottom: 5.2rem;
+    padding-top: 9.2rem;
+  }
+}
